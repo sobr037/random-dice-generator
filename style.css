@@ -1,16 +1,17 @@
 html {
-    background-color: #008080;
+    background-color: #008080; /* Sets background colour */
 }
 
 .window {
-    width: 300px;
-    margin: auto;
+    width: 300px; /* Sets width of window box */
+    margin: auto; /* Aligns window box in center */
 }
 .button {
-    padding-top: 10px;
+    padding-top: 10px; /* Adds spacing between # of Dice and the button */
 }
 
 #result {
-    padding-top: 10px;
-    font-weight: bold;
+    padding-top: 10px; /* Adds spacing between button and result text */
+    font-weight: bold; /* Boldens text */
 }
+
