@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>devsInc Dice Roller</title> 
+  <meta name="description" content="Random dice generator"> <!-- Meta Description -->
+  <link rel="stylesheet" href="style.css"> <!-- External Stylesheet -->
+  <link rel="stylesheet" href="https://unpkg.com/98.css"> <!-- Third party Stylesheet for windows ui: dan.github.io/98.css -->
+</head>
+
+<body>
+  <div class="window">
+        <div class="title-bar">
+        <div class="title-bar-text">DevsInc - Random Dice Generator</div>
+        <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body">
+            <div class="field-row">
+                <label for="num-faces">Number of faces:</label>
+                <input id="num-faces" type="number" value="6" min="1"/>
+            </div>
+            <div class="field-row">
+                <label for="num-dice">Number of Dices:</label>
+                <input id="num-dice" type="number" value="1" min="1"/>
+            </div>
+
+            <div class="button">
+                <button type="button" id="roll-button">Roll the Dice</button>
+            </div>
+            
+            <div id="result"></div>
+
+        </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
